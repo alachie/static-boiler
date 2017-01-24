@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "echo \"Error: no test specified\" && exit 1",
-    "cleanup": "rm README.md && sudo rm -r .git",
-    "dev": "webpack-dev-server --inline --hot"
+    "dev": "webpack-dev-server --inline --hot",
+    "cleanup": "rm README.md && sudo rm -r .git"
   },
   "repository": {
     "type": "git",
@@ -15,20 +14,20 @@
   "author": "alachie",
   "license": "MIT",
   "devDependencies": {
+    "autoprefixer": "*",
+    "babel-core": "^6.22.1",
+    "babel-loader": "*",
     "babel-plugin-add-module-exports": "*",
     "babel-plugin-transform-class-properties": "*",
     "babel-plugin-transform-decorators-legacy": "*",
-    "babel-preset-stage-0": "*",
-    "webpack-dev-server": "*",
-    "babel-loader": "*",
     "babel-preset-es2015": "*",
-    "webpack": "*",
-    "webpack-dev-server": "*",
-    "autoprefixer": "*",
+    "babel-preset-stage-0": "*",
     "css-loader": "*",
     "node-sass": "*",
     "postcss-loader": "*",
     "sass-loader": "*",
-    "style-loader": "*"
+    "style-loader": "*",
+    "webpack": "*",
+    "webpack-dev-server": "*"
   }
 }
